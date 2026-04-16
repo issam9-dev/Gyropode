@@ -1,5 +1,9 @@
 # Projet Robot Auto-Équilibré avec ESP32
 
+<p align="center">
+  <img src="images/2092.jpg" alt="Robot Auto-Équilibré" width="600"/>
+</p>
+
 ## Vue d'ensemble
 
 Ce projet implémente un robot auto-équilibré (self-balancing robot) utilisant un microcontrôleur ESP32, un capteur IMU MPU6050 pour la mesure d'inclinaison, et des encodeurs rotatifs pour la mesure de vitesse des roues. Le système utilise un contrôleur PID pour maintenir l'équilibre du robot en ajustant la vitesse des moteurs.
@@ -108,6 +112,7 @@ L'angle d'inclinaison est calculé en fusionnant les données de l'accéléromè
 4. **Configurer le Matériel** : Assurez-vous que les connexions correspondent au schéma ci-dessus
 
 5. **Compiler et Téléverser** :
+
    ```bash
    pio run -t upload
    ```
@@ -141,6 +146,7 @@ Exemple : Envoyez `Kp 1.5` pour définir Kp à 1.5
 ### Données de Sortie
 
 Le programme affiche périodiquement :
+
 - `theta_filtre` : Angle accéléromètre filtré (°)
 - `d_theta_gyroscope` : Vitesse angulaire gyro (°/s)
 - `theta_final` : Angle fusionné (°)

@@ -1,7 +1,7 @@
 # Projet Robot Auto-Équilibré avec ESP32
 
 <p align="center">
-  <img src="images/2092.jpg" alt="Robot Auto-Équilibré" width="600"/>
+  <img src="images/gyro.jpg" alt="Robot Auto-Équilibré" width="600"/>
 </p>
 
 ## Vue d'ensemble

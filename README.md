@@ -1,4 +1,4 @@
-# Projet Robot Auto-Équilibré avec ESP32
+# Projet Gyropode
 
 <p align="center">
   <img src="images/gyro.jpg" alt="Robot Auto-Équilibré" width="600"/>
@@ -6,7 +6,7 @@
 
 ## Vue d'ensemble
 
-Ce projet implémente un robot auto-équilibré (self-balancing robot) utilisant un microcontrôleur ESP32, un capteur IMU MPU6050 pour la mesure d'inclinaison, et des encodeurs rotatifs pour la mesure de vitesse des roues. Le système utilise un contrôleur PID pour maintenir l'équilibre du robot en ajustant la vitesse des moteurs.
+Ce projet implémente un gyropode utilisant un microcontrôleur ESP32, un capteur IMU MPU6050 pour la mesure d'inclinaison, et des encodeurs rotatifs pour la mesure de vitesse des roues. Le système utilise un contrôleur PID pour maintenir l'équilibre du robot en ajustant la vitesse des moteurs.
 
 Le code est écrit en C++ avec le framework Arduino et utilise PlatformIO pour la gestion du projet et la compilation.
 
